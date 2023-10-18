@@ -11,5 +11,5 @@ console.log(email.susbstring(0, email.indexof('@')).tolowercase())
 //console.log('BUSCAR CARACTER PELO INDICE', email.charAt(15))
 
 var nomePessoa = 'ANA PAULA'
-
+console.log(nomePessoa.substring(0, nomePessoa.length -1))
 console.log('nome pessoa', nomePessoa.tolowercase())
