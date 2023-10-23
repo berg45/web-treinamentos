@@ -14,4 +14,4 @@ notaDisciplina3 = parseFloat(input.question('informe a nota da disciplina3: '))
 //regra
 mediaPoderada = (notaDisciplina1 * p2 + notaDisciplina2 * p3 + notaDisciplina3 * p5) / (p2 + p3 + p5)
 
-console.log(`A sua média ponderada é${mediaPoderada}`)
+console.log(`A sua média ponderada é ${mediaPoderada}`)
