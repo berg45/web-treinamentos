@@ -1,11 +1,10 @@
 const input = require('readline-sync')
 
-var base, altura, areaDoTriangulo
+var base, altura
 
-base = parseFloat(input.question('informe a base do triangulo: '))
-altura = parseFloat(input.question('informe a altura do triangulo: '))
+base = parseFloat(input.question('informe a base: '))
+altura = parseFloat(input.question('informe a altura: '))
 
 
 //regra
-areaDoTriangulo = base * altura / 2
-console.log(`A area do triangulo é ${areaDoTriangulo} cm`)
+console.log(`O volume ${base * altura / 2} cm`)
