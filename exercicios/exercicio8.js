@@ -1,11 +1,17 @@
 const input = require('readline-sync')
 
-var valor = parseFloat(input.question('informe um valor: '))
+//informe um valor
+var valor = parseFloat(input.question("Digite um valor:" ));
 
-if(valor) {
-console.log(` ${valor} é maior que 10`)
-
+//verifcar se o valor é maior que 10 e informe o resultado
+if (valor < 10) {
+    console.log("O valor informado é menor que 10.");
+} else if (valor > 10) {
+    console.log("O valor informado é maior que 10.");
+} else {
+    console.log("O valor é igual a 10.");
 }
+
 
 
 
